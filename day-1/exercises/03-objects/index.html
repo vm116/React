@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Exercise: Objects</title>
+    </head>
+    <body>
+       <h1>Exercise: Objects</h1>
+    </body>
+</html>
+<script>
+
+// Code Here
+function DreamCar(make, model, yearBuilt, color, isElectric, odometer, features) {
+    this.make = make
+    this.model = model
+    this.yearBuilt = yearBuilt
+    this.color = color
+    this.isElectric = isElectric
+    this.odometer = odometer
+    this.features = features
+
+    this.repaint = function(color) {
+        this.color = color
+    }
+
+}
+
+const car = new DreamCar('honda', 'civic', '2017', 'red', false, 105, ['remote start', 'heated seats'])
+
+console.log(car)
+
+car.repaint('blue')
+</script>
