@@ -28,9 +28,7 @@ A function without a name. Anonymous functions are commonly used in function exp
 ``` js 
 
 // Anonymous function as callback
-setTimeout(function() {
-    console.log('Ding! Three seconds passed!')
-}, 3000)
+setTimeout(function() {  console.log('Ding! Three seconds passed!')}, 3000)
 
 ```
 
