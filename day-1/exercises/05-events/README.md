@@ -12,7 +12,7 @@
     - Give each input field a unique `id` attribute
     - Retrieve the `value` property from each input
 
-- Attach the `handleSignUp` function to the form's `onChange` event.
+- Attach the `handleSignUp` function to the form's `onchange` event.
 
 - Once you've verified your `handleLogin` function is called by submitting the form, update the function to push a new object to the `users` array containing the input values from the form.
 

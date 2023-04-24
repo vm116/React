@@ -14,8 +14,10 @@
             // Create root on selected DOM element
             const root = ReactDOM.createRoot(domContainer)
 
+            const ChildComponents = React.createElement('h1', {}, 'THIS IS BIG TEXT')
+
             // Create component
-            const Component = React.createElement('div', {}, 'Hello World!')
+            const Component = React.createElement('div', {}, ChildComponents)
 
             // Render component at root
             root.render(Component)
